@@ -10,6 +10,18 @@ Available user commands:
 |  `NatspecNotice` |   `/// @notice`|
 |  `Natspec` |  Generates `@notice, @dev, @params, @returns` natspec comment |
 
+## Setup
+
+With `Lazy`:
+
+```lua
+
+return {
+  "dmpierre/natspec.nvim"
+}
+
+```
+
 ## Remarks
 
 The generated natspec is not adapted to the function's signature. I quickly needed something to work  while developing a solidity project.
